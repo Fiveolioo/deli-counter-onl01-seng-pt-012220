@@ -1,4 +1,3 @@
-katz_deli = []
 def line(people)
   if people.length == 0
     puts "The line is currently empty."
@@ -9,4 +8,10 @@ def line(people)
     end
     puts current_line.join
   end
+end
+
+def take_a_number(katz_deli, person)
+  puts katz_deli
+  puts "BREAK"
+  puts person
 end
