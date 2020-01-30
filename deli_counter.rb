@@ -11,7 +11,6 @@ def line(people)
 end
 
 def take_a_number(katz_deli, person)
-  puts katz_deli
-  puts "BREAK"
-  puts person
+  katz_deli << person
+  puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
 end
