@@ -7,6 +7,6 @@ def line(people)
     people.each_with_index do |person, index|
       current_line << " #{index + 1}. #{person}"
     end
-    current_line.join
+    puts current_line.join
   end
 end
